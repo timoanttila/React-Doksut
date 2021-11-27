@@ -1,0 +1,32 @@
+{
+	"site": "Tuspe Doksut",
+	"about": "Hei. Olen Timo Anttila.",
+	"endpoints": [
+		{
+			"name": "info"
+		},
+		{
+			"name": "Games",
+			"items": [
+				{
+					"name": "Games",
+					"method": 1,
+					"params": [
+						{
+							"name": "startDate",
+							"type": "Date",
+							"where": "query",
+							"example": "?startDate=2021-06-21"
+						},
+						{
+							"name": "endDate",
+							"type": "Date",
+							"where": "query",
+							"example": "?endDate=2021-06-21"
+						}
+					]
+				}
+			]
+		}
+	]
+}
